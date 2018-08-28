@@ -1,0 +1,17 @@
+{
+  "name": "photogabble-website",
+  "description": "2018-2019 Photogabble Design",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "@vue/component-compiler-utils": "^2.2.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-vue": "^2.0.2",
+    "parcel-bundler": "^1.9.7",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
