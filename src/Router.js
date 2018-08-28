@@ -14,6 +14,7 @@ export function createRouter() {
         routes: [
             {path: '/foo', component: FooView},
             {path: '/bar', component: BarView},
+            {path: '/elsewhere', component: BarView},
             {path: '/', name: 'home', component: HomepageView},
             {path: '*', redirect: '/'},
         ],

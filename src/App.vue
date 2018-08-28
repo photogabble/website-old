@@ -1,10 +1,11 @@
 <template lang="html">
     <div id="app">
         <nav>
-            <router-link to="/">Home</router-link>
-            <router-link to="/foo">Reading List</router-link>
-            <router-link to="/bar">Links</router-link>
-            <router-link to="/bar">About</router-link>
+            <div class="container">
+                <router-link to="/">photogabble.co.uk</router-link>
+                <router-link to="/bar">articles</router-link>
+                <router-link to="/foo">Reading List</router-link>
+            </div>
         </nav>
 
         <router-view class="view"></router-view>
@@ -22,9 +23,19 @@
     body {
         padding: 0;
         margin: 0;
-        background: #252525;
-        color: #FEFEFE;
+        background: #f9f9f9;
+        color: #252525;
         height: 100%;
+    }
+
+    .container {
+        width: 45rem;
+    }
+
+    .outer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     nav{
@@ -33,8 +44,14 @@
         justify-content: center;
         align-items: center;
         height: 50px;
-        background: #FEFEFE;
+        background: #FFFFFF;
         color: #252525;
+        border-top: 5px solid #4d8e27;
+        box-shadow: 0 -4px 10px rgba(0,0,0,.7);
+    }
+
+    .drop-shadow{
+        box-shadow: 0 0 5px rgba(0,0,0,.7);
     }
 
     nav a{
@@ -44,8 +61,8 @@
         text-decoration: none;
     }
 
-    nav a.is-active{
-        color: #3f4dff;
+    a, nav a.is-active{
+        color: #4d8e27;
     }
 
     body {
