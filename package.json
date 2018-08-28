@@ -12,6 +12,7 @@
     "parcel-bundler": "^1.9.7",
     "vue": "^2.5.17",
     "vue-hot-reload-api": "^2.3.0",
+    "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.17"
   }
 }
