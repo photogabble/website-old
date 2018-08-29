@@ -48,6 +48,11 @@ main {
 
 .introduction {
   margin-bottom: 1.5rem;
+
+  h1{
+    line-height: 2.7rem;
+    font-weight: normal;
+  }
 }
 
 .articles{
@@ -65,12 +70,14 @@ main {
   }
 }
 
-.project{
+.project, .book{
   h3{
     margin-bottom: 0;
   }
   p{
     font-size: 1.4rem;
+  }
+  p,small{
     line-height: 2rem;
   }
 }
