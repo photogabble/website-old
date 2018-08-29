@@ -13,54 +13,19 @@
 
 <include src="./_partials/header.html"></include>
 
-<main id="archive">
-    <header class="flex center-xs middle-xs">
-        <h1 class="col-xs-6 start-sm">Articles.</h1>
+<main id="archive" class="narrow">
+    <header class="flex middle center">
+        <h1 class="max-width">Articles.</h1>
     </header>
 
-    <section class="flex center-xs categories">
-        <div class="col-xs-6 start-sm">
+    <section class="flex center categories">
+        <div class="max-width">
             <p>The topics I write about here include: <a href="#">programming</a>, <a href="#">games</a>, <a href="#">tutorials</a>,
                 <a href="#">blogging</a>, <a href="#">pixel art</a> and <a href="#">useful tools and resources</a>.</p>
         </div>
     </section>
 
-    <section class="articles">
-        <div class="flex around-xs">
-            <div class="col-xs">
-                <div class="box">
-                    around
-                </div>
-            </div>
-            <div class="col-xs">
-                <div class="box">
-                    around
-                </div>
-            </div>
-            <div class="col-xs">
-                <div class="box">
-                    around
-                </div>
-            </div>
-        </div>
-        <div class="flex around-xs">
-            <div class="col-xs">
-                <div class="box">
-                    around
-                </div>
-            </div>
-            <div class="col-xs">
-                <div class="box">
-                    around
-                </div>
-            </div>
-            <div class="col-xs">
-                <div class="box">
-                    around
-                </div>
-            </div>
-        </div>
-    </section>
+    <include src="./_partials/articles.html"></include>
 </main>
 
 <include src="./_partials/footer.html"></include>
