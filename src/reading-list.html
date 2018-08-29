@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link media="all" rel="stylesheet" href="./styles/index.scss"/>
+    <title>Photogabble</title>
+</head>
+
+<body>
+
+<include src="./_partials/header.html"></include>
+
+<main id="reading-list">
+
+    <header>
+        <h1>Reading List</h1>
+    </header>
+
+    <section>
+        <p>This is a section that is normal width</p>
+    </section>
+
+    <section class="max">
+        <div class="max">
+            <p>This is a section that is full width</p>
+        </div>
+    </section>
+
+    <section class="max" style="background: red;">
+        <div>
+            <p>This is a section that is full width that's inner content is normal width</p>
+        </div>
+    </section>
+</main>
+
+<include src="./_partials/footer.html"></include>
+
+<script src="./scripts/index.js"></script>
+</body>
+</html>

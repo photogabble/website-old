@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link media="all" rel="stylesheet" href="./styles/index.scss"/>
+    <title>Photogabble</title>
+</head>
+
+<body>
+
+<include src="./_partials/header.html"></include>
+
+<main id="elsewhere">
+
+    <header class="row center-xs middle-xs">
+        <h1 class="col-xs-6 start-sm">Projects.</h1>
+    </header>
+
+    <section class="row center-xs projects">
+        <div class="col-xs-6 start-sm">
+            <p>
+                In dedicate a varying amount of my spare time each week to working on open
+                source projects. Most notably the static site generator <a href="https://www.tapestry.cloud">Tapestry</a>
+                and a port of <a href="https://github.com/photogabble/isso-php">isso to PHP</a>.
+            </p>
+            <p>Below is a list of other less ambitious
+                projects I have worked on:</p>
+
+            <hr>
+
+            <section class="project">
+                <h3><a href="https://github.com/photogabble/laravel-remember-uploads">Laravel Remember Uploads</a></h3>
+                <a href="https://travis-ci.org/photogabble/laravel-remember-uploads"><img src="https://travis-ci.org/photogabble/laravel-remember-uploads.svg?branch=master" alt="Build Status"></a>
+                <a href="https://packagist.org/packages/photogabble/laravel-remember-uploads"><img src="https://img.shields.io/packagist/v/photogabble/laravel-remember-uploads.svg" alt="Latest Stable Version"></a>
+                <a href="https://github.com/photogabble/laravel-remember-uploads/LICENSE"><img src="https://img.shields.io/github/license/photogabble/laravel-remember-uploads.svg" alt="License"></a>
+                <p>
+                    A Laravel middleware package written to solve the issue of uploaded files being lost as a
+                    side effect of unrelated form validation errors redirecting the user back. It does this by
+                    temporarily caching server-side the upload fields that have passed validation so that they
+                    may be used once the whole form has been submitted passing validation.
+                </p>
+            </section>
+
+            <section class="project">
+                <h3><a href="https://github.com/photogabble/laravel-registration-validator">Laravel Registration Validator</a></h3>
+                <a href="https://travis-ci.org/photogabble/laravel-registration-validator"><img src="https://travis-ci.org/photogabble/laravel-registration-validator.svg?branch=master" alt="Build Status"></a>
+                <a href="https://packagist.org/packages/photogabble/laravel-registration-validator"><img src="https://img.shields.io/packagist/v/photogabble/laravel-registration-validator.svg" alt="Latest Stable Version"></a>
+                <a href="https://github.com/photogabble/laravel-registration-validator/LICENSE"><img src="https://img.shields.io/github/license/photogabble/laravel-registration-validator.svg" alt="License"></a>
+                <p>
+                    A Laravel validation package that acts as a wrapper for my Confusable Homoglyphs library. It
+                    provides your application the ability to validate user input as not containing dangerous
+                    confusable characters.
+                </p>
+            </section>
+
+            <section class="project">
+                <h3><a href="https://github.com/photogabble/php-confusable-homoglyphs">PHP Confusable Homoglyphs</a></h3>
+                <a href="https://travis-ci.org/photogabble/php-confusable-homoglyphs"><img src="https://travis-ci.org/photogabble/php-confusable-homoglyphs.svg?branch=master" alt="Build Status"></a>
+                <a href="https://packagist.org/packages/photogabble/php-confusable-homoglyphs"><img src="https://img.shields.io/packagist/v/photogabble/php-confusable-homoglyphs.svg" alt="Latest Stable Version"></a>
+                <a href="https://github.com/photogabble/php-confusable-homoglyphs/LICENSE"><img src="https://img.shields.io/github/license/photogabble/php-confusable-homoglyphs.svg" alt="License"></a>
+                <p>
+                    A PHP port of <a href="https://github.com/vhf/confusable_homoglyphs">vhf/confusable_homoglyphs</a>
+                    written after I found myself needing the functionality that the Python version provides.
+                </p>
+                <p>
+                    It allows you to identify if an input string contains confusable homoglyphs &ndash; e.g. the Greek
+                    letter <a href="http://www.amp-what.com/unicode/search/%CE%91">capital alpha</a> &Alpha; looks
+                    identical to the Latin capital letter A but are considered as two different homoglyphs.
+                </p>
+                <p>
+                    For more information <a href="https://www.b-list.org/weblog/2018/feb/11/usernames/" rel="external noopener noreferrer">read this article</a> by James Bennett on validating usernames.
+                </p>
+            </section>
+
+            <section class="project">
+                <h3><a href="https://github.com/photogabble/pixel-editor-tutorial">Pixel Editor Tutorial</a></h3>
+                <a href="https://github.com/photogabble/pixel-editor-tutorial/LICENSE"><img src="https://img.shields.io/github/license/photogabble/pixel-editor-tutorial.svg" alt="MIT License"></a>
+                <p>
+                    The source code repository for my tutorial series on writing a pixel editor in JavaScript.
+                </p>
+            </section>
+
+            <section class="project">
+                <h3><a href="https://github.com/photogabble/tagify-vue">Tagify Vue</a></h3>
+                <a href="https://github.com/photogabble/tagify-vue/LICENSE"><img src="https://img.shields.io/github/license/photogabble/tagify-vue.svg" alt="MIT License"></a>
+                <p>
+                    A component I wrote for Vue.js that acts as a convenience wrapper for <a href="https://yaireo.github.io/tagify/">Tagify</a>.
+                </p>
+            </section>
+
+            <section class="project">
+                <h3><a href="https://github.com/photogabble/tuppence">Tuppence</a></h3>
+                <a href="https://travis-ci.org/photogabble/tuppence"><img src="https://travis-ci.org/photogabble/tuppence.svg?branch=master" title="master"></a>
+                <a href="https://packagist.org/packages/photogabble/tuppence"><img src="https://img.shields.io/packagist/v/photogabble/tuppence.svg" alt="Latest Stable Version"></a>
+                <a href="https://github.com/photogabble/tuppence/LICENSE"><img src="https://img.shields.io/github/license/photogabble/tuppence.svg" alt="License"></a>
+                <p>
+                    A very small (some might say <em>pico</em>) framework. I threw this together when I noticed that
+                    <a href="https://github.com/alexbilbie/Proton">Proton</a> by Alex Bilbie didn't use the (then)
+                    latest version of Router by the PHP League.
+                </p>
+                <p>
+                    It brings together a <a href="http://container.thephpleague.com/" rel="external noopener noreferrer">dependency injection container</a>, <a href="http://route.thephpleague.com/" rel="external noopener noreferrer">router</a> and <a href="http://event.thephpleague.com/2.0/" rel="external noopener noreferrer">events</a> all provided by The League of Extraordinary Packages.
+                </p>
+            </section>
+
+            <section class="project">
+                <h3><a href="https://github.com/photogabble/tuppence-boilerplate">Tuppence Boilerplate</a></h3>
+                <a href="https://github.com/photogabble/tuppence-boilerplate/LICENSE"><img src="https://img.shields.io/github/license/photogabble/tuppence-boilerplate.svg" alt="License"></a>
+                <p>
+                    An opinionated boilerplate that wraps Tuppence to provide a project structure that resembles
+                    that used by Laravel. It comes bundled with service providers for the <a href="http://platesphp.com/" rel="external noopener noreferrer">Plates PHP template
+                    system</a> and <a href="https://www.doctrine-project.org/projects/orm.html" rel="external noopener noreferrer">Docrtine ORM</a>.
+                </p>
+            </section>
+
+            <section class="project">
+                <h3><a href="https://github.com/photogabble/clover-coverage-cli">Clover Coverage Cli</a></h3>
+                <a href="https://travis-ci.org/photogabble/clover-coverage-cli"><img src="https://travis-ci.org/photogabble/clover-coverage-cli.svg?branch=master" alt="Build Status"></a>
+                <a href="https://packagist.org/packages/photogabble/clover-coverage"><img src="https://img.shields.io/packagist/v/photogabble/clover-coverage.svg" alt="Latest Stable Version"></a>
+                <a href="https://github.com/photogabble/clover-coverage-cli/LICENSE"><img src="https://img.shields.io/github/license/photogabble/clover-coverage-cli.svg" alt="License"></a>
+                <p>
+                    A command line parser of clover.xml code coverage files.
+                </p>
+            </section>
+
+            <section class="project">
+                <h3><a href="https://github.com/photogabble/pixel-city-tutorial">Pixel City Tutorial</a></h3>
+                <a href="https://github.com/photogabble/pixel-city-tutorial/LICENSE"><img src="https://img.shields.io/github/license/photogabble/pixel-city-tutorial.svg" alt="MIT License"></a>
+                <p>
+                    A work in progress&hellip;
+                </p>
+            </section>
+
+        </div>
+    </section>
+
+</main>
+
+<include src="./_partials/footer.html"></include>
+
+
+<script src="./scripts/index.js"></script>
+</body>
+</html>
